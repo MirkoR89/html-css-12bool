@@ -1,15 +1,22 @@
+/* DEBUG */
+#debug [class*="col_"] {
+height: 200px;
+background: lightgreen;
+border: 1px solid green;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+.container {
   max-width: 1170px;
   margin: auto;
 }
 
-.container {
+.container::afterdi {
   content: "";
   display: table;
   clear: both;
