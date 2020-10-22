@@ -10,49 +10,53 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body id=debug>
-  <div class="container">
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
+  <div class="row">
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
   </div>
 
-  <div class="container">
-    <div class="col_12"><span>12 col</span></div>
+  <div class="row">
+    <div class="col-12"><span>12 col</span></div>
   </div>
 
-  <div class="container">
-    <div class="col_8"><span>8 col</span></div>
-    <div class="col_2"><span>2 col</span></div>
-    <div class="col_2"><span>2 col</span></div>
+  <div class="row">
+    <div class="col-8"><span>8 col</span></div>
+    <div class="col-2"><span>2 col</span></div>
+    <div class="col-2"><span>2 col</span></div>
   </div>
 
-  <div class="container">
-    <div class="col_1"><span>1 col</span></div>
-    <div class="col_2"><span>2 col</span></div>
-    <div class="col_2"><span>2 col</span></div>
-    <div class="col_6"><span>6 col</span></div>
-    <div class="col_1"><span>1 col</span></div>
+  <div class="row">
+    <div class="col-1"><span>1 col</span></div>
+    <div class="col-2"><span>2 col</span></div>
+    <div class="col-2"><span>2 col</span></div>
+    <div class="col-6"><span>6 col</span></div>
+    <div class="col-1"><span>1 col</span></div>
   </div>
 
-  <div class="container">
-    <div class="container col_6">
-      <div class="col_2 nested"><span>Nested 2 col</span></div>
-      <div class="col_2 nested"><span>Nested 2 col</span></div>
-      <div class="col_8 nested"><span>Nested 8 col</span></div>
+  <div class="row">
+    <div class="col-6">
+      <div id="debug-nested" class="p-5">
+        <div class="col-2"><span>Nested 2 col</span></div>
+        <div class="col-2"><span>Nested 2 col</span></div>
+        <div class="col-8"><span>Nested 8 col</span></div>
+      </div>
     </div>
 
-    <div class="container col_6">
-      <div class="col_6 nested"><span>Nested 6 col</span></div>
-      <div class="col_6 nested"><span>Nested 6 col</span></div>
+    <div class="col-6">
+      <div id="debug-nested" class="p-5">
+        <div class="col-6"><span>Nested 6 col</span></div>
+        <div class="col-6"><span>Nested 6 col</span></div>
+      </div>
     </div>
   </div>
 </body>
