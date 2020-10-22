@@ -11,6 +11,15 @@ body {
   margin: auto;
 }
 
+.container {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col_"] {
+  float: left;
+}
 
 /* columns */
 .col_1 {
